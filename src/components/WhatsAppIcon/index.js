@@ -10,7 +10,7 @@ export default function WhatsAppIcon(){
 
     return(
 
-        <button className="whatsAppContacto" onClick={handleClick}>
+        <button className="whatsAppContacto col-md-0 col-sm-0 col-xs-0" onClick={handleClick}>
 
             <i className="fa-brands fa-whatsapp iconWhatsAppContacto"></i>
 

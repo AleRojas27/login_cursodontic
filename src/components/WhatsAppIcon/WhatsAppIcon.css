@@ -4,8 +4,8 @@
     bottom: 5%;
     right: 5%;
     background-color: green;
-    width: 47px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
     border-radius: 50px;
     border: none;
 }
@@ -24,8 +24,8 @@
     font-size: 40px;
     color: white;
     position: absolute;
-    left: 6px;
-    top: 3px;
+    left: 0;
+    top: 7px;
 }
 
 .iconWhatsAppContacto:hover{
@@ -34,3 +34,56 @@
     border: none;
 }
 
+/* RESPONSIVE */
+
+/*XS*/ 
+@media (max-width: 575px) {
+
+    .col-xs-0{
+
+        display: none;
+    }
+    
+}
+    
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+
+    .col-sm-0{
+
+        display: none;
+    }
+   
+}
+      
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .col-md-0{
+
+        display: none;
+    }
+        
+}
+    
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+          
+}
+    
+/*XL*/
+@media (min-width: 1200px){
+
+    .whatsAppContacto{
+
+        width: 55px;
+        height: 55px;
+    }
+
+    .iconWhatsAppContacto{
+
+        top: 7px;
+    }
+
+}
