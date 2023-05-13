@@ -5,6 +5,7 @@ import HeaderLogin from './components/HeaderLogin';
 import LoginCursodontic from './components/LoginCursodontic';
 import FooterLogin from './components/FooterLogin'; 
 import Chatbot from './components/Chatbot';
+import PromocionProtectoresAcetatos from './components/PromocionProtectoresAcetatos';
 
 function App() {
   return (
@@ -14,6 +15,13 @@ function App() {
       <BrowserRouter>
 
         <Switch>
+
+          <Route path="/promocion/" exact>
+
+            <HeaderLogin />
+            <PromocionProtectoresAcetatos />
+
+          </Route>
 
 
           <Route path="/chatbot/" exact>

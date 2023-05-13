@@ -1,0 +1,128 @@
+.promocionProtectoresAcetatos{
+
+    background-color: black;
+    font-size: 16px;
+}
+
+.promocionProtectoresAcetatos__titulo{
+
+    font-family: 'Bebas Neue';
+    font-size: 45px;
+    color: #f9bb60;
+    margin-bottom: 20px;
+}
+
+.promocionProtectoresAcetatos__text{
+
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: white;
+    text-align: center;
+
+}
+
+.textAmarillo{
+
+    color: #f9bb60;
+    font-weight: 500;
+}
+
+.promocionProtectoresAcetatos__subtitulo{
+
+    font-family: 'Bebas Neue';
+    color: white;
+    font-size: 30px;
+    margin-left: 12px;
+}
+
+.imgProtectores{
+
+    width: 100%;
+    height: 300px;
+    border: 2px solid white;
+    object-fit: contain;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.promocionProtectoresAcetatos__infoPonente{
+
+    margin-top: 15px;
+}
+
+.infoPonente__img{
+
+    width: 55px;
+    border-radius: 50px;
+}
+
+.infoPonente__primario{
+
+    margin-left: 8px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.infoPonente__secundario{
+
+    color: red;
+    font-weight: 500;
+}
+
+.imgAcetatos{
+
+    width: 100%;
+    height: 300px;
+    margin-top: 15px;
+    object-fit: contain;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.promocionProtectoresAcetatos__precios{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.precios__original{
+
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    margin-bottom: 0;
+
+}
+
+.original__span{
+
+    text-decoration: line-through;
+}
+
+.precios__descuento{
+
+    color: red;
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.promocionProtectoresAcetatos__button{
+
+    margin-left: 5%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 90%;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+
+}
