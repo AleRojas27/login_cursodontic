@@ -22,6 +22,12 @@ export default function HeaderLogin(){
 
                     </Link>
 
+                    <Link to="/promocion" className="">
+
+                        <span>Promocion Protectores y Acetatos</span>
+
+                    </Link>
+
                 </div>
 
             </div>

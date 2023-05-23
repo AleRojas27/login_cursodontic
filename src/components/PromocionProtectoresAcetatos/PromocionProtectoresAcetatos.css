@@ -1,0 +1,316 @@
+.promocionProtectoresAcetatos{
+
+    background-color: black;
+    font-size: 16px;
+}
+
+.promocionProtectoresAcetatos__titulo{
+
+    font-family: 'Bebas Neue';
+    font-size: 45px;
+    color: #f9bb60;
+    margin-bottom: 20px;
+}
+
+.promocionProtectoresAcetatos__text{
+
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: white;
+    text-align: center;
+
+}
+
+.textAmarillo{
+
+    color: #f9bb60;
+    font-weight: 500;
+}
+
+.promocionProtectoresAcetatos__subtitulo{
+
+    font-family: 'Bebas Neue';
+    color: white;
+    font-size: 28px;
+    margin-left: 12px;
+}
+
+.imgProtectores{
+
+    width: 100%;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.promocionProtectoresAcetatos__infoPonente{
+
+    margin-top: 15px;
+}
+
+.infoPonente__img{
+
+    width: 55px;
+    border-radius: 50px;
+}
+
+.infoPonente__primario{
+
+    margin-left: 8px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.infoPonente__secundario{
+
+    color: red;
+    font-weight: 500;
+}
+
+.infoCurso{
+
+    display: flex;
+    align-items: center;
+}
+
+.iconVideo{
+
+    font-size: 30px;
+    color: #2f4056;
+}
+
+.iconAward{
+
+    font-size: 30px;
+    color: #f9bb60;
+}
+
+.iconEye{
+
+    font-size: 30px;
+    color: #f65f5d;
+}
+
+.iconClock{
+
+    font-size: 30px;
+    color: #419895;
+}
+
+.infoCurso__text{
+
+    color: white;
+    font-family: 'Montserrat';
+    margin-left: 12px;
+    font-weight: 400;
+}
+
+.calificaciones__porcentaje{
+
+    font-size: 18px;
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: 700;
+}
+
+.calificaciones__total{
+
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+.calificacionesStar{
+
+    margin-top: 12px;
+}
+
+.iconStar{
+
+    color: #f9bb60;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.infoCurso__textMatriculados{
+
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: 700;
+}
+
+.infoCurso__totalEstudiantes{
+
+    text-align: center;
+    margin-top: 12px;
+}
+
+.iconGraduate{
+
+    font-size: 20px;
+    color: #419895;
+}
+
+.totalEstudiantes__text{
+
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+.descripcionTitulo{
+
+    font-family: 'Bebas Neue';
+    color: white;
+    font-size: 28px;
+}
+
+.descripcionText{
+
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.descripcionText__secundario{
+
+    font-weight: 700;
+}
+
+.imgAcetatos{
+
+    width: 100%;
+    height: 300px;
+    margin-top: 15px;
+    object-fit: contain;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.infoAcetatos{
+
+    margin-top: 20px;
+}
+
+.iconTruck{
+
+    font-size: 20px;
+    color: #419895;
+}
+
+.infoAcetatos__textEnvio{
+
+    color: #419895;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+.infoAcetatos__textPrimario{
+
+    font-family: 'Montserrat';
+    font-size: 11px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 17px;
+}
+
+.infoAcetatos__textSecundario{
+
+    font-weight: 700;
+}
+
+.promocionProtectoresAcetatos__precios{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.precios__original{
+
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    margin-bottom: 0;
+
+}
+
+.original__span{
+
+    text-decoration: line-through;
+}
+
+.precios__descuento{
+
+    color: red;
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.promocionProtectoresAcetatos__button{
+
+    margin-left: 5%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    width: 90%;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+.separador{
+
+    margin: 0;
+    color: white;
+}
+
+.infoMetodoPago__seguroProtegido{
+
+    text-align: center;
+    margin-top: 8px;
+}
+
+.iconLock{
+
+    color: white;
+    font-size: 16px;
+}
+
+.seguroProtegido__text{
+
+    font-family: 'Montserrat';
+    color: white;
+    margin-left: 8px;
+}
+
+.infoMetodoPago__tipoPago{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tipoPago__img{
+
+    width: 40px;
+}
+
+.tipoPago__denthereum{
+
+    width: 35px;
+}
