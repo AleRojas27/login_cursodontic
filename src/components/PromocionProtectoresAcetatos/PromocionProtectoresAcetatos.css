@@ -257,18 +257,53 @@
 
 .promocionProtectoresAcetatos__button{
 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: red;
     margin-left: 5%;
     margin-bottom: 15px;
     margin-top: 20px;
     width: 90%;
-    height: 45px;
+    height: 50px;
     border-radius: 8px;
     border: none;
-    background-color: red;
-    color: white;
-    font-weight: 600;
-    font-size: 22px;
 
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.promocionProtectoresAcetatos__button i{
+
+    margin-right: 5px;
+}
+
+.buttonText__precioRebaja{
+
+    display: flex;
+    align-items: baseline;
+}
+
+.precioRebaja__fiat{
+
+    font-size: 18px;
+}
+
+.buttonText__precioOriginal{
+
+    font-size: 18px;
+    font-weight: 400;
+    color: darkgray;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+.precioOriginal__fiat{
+
+    font-size: 16px;
 }
 
 .separador{
