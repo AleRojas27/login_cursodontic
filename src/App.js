@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect} from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import HeaderLogin from './components/HeaderLogin';
@@ -6,8 +6,14 @@ import LoginCursodontic from './components/LoginCursodontic';
 import FooterLogin from './components/FooterLogin'; 
 import Chatbot from './components/Chatbot';
 import PromocionProtectoresAcetatos from './components/PromocionProtectoresAcetatos';
+import AvisoCookies from './components/AvisoCookies';
 
 function App() {
+
+  useEffect(() => {
+    localStorage.removeItem('cookiesAccepted');
+    }, []);
+
   return (
    
     <React.Fragment>
@@ -26,15 +32,16 @@ function App() {
 
           <Route path="/chatbot/" exact>
 
-            <Chatbot></Chatbot>
+            <Chatbot />
 
           </Route>
 
           <Route path="/">
 
-            <HeaderLogin></HeaderLogin>
-            <LoginCursodontic></LoginCursodontic>
-            <FooterLogin></FooterLogin>
+            <HeaderLogin />
+            <LoginCursodontic />
+            <FooterLogin />
+            <AvisoCookies />
             
           </Route>
 
