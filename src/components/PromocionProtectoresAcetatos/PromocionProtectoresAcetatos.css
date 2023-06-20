@@ -233,82 +233,9 @@
     margin-bottom: 10px;
 }
 
-.precios__original{
-
-    color: white;
-    font-family: 'Bebas Neue';
-    font-size: 25px;
-    margin-bottom: 0;
-
-}
-
-.original__span{
-
-    text-decoration: line-through;
-}
-
-.precios__descuento{
-
-    color: red;
-    font-family: 'Bebas Neue';
-    font-size: 25px;
-    margin-bottom: 0;
-}
-
-.promocionProtectoresAcetatos__button{
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-    background-color: red;
-    margin-left: 5%;
-    margin-bottom: 15px;
-    margin-top: 20px;
-    width: 90%;
-    height: 50px;
-    border-radius: 8px;
-    border: none;
-
-    font-size: 22px;
-    font-weight: 600;
-    color: white;
-
-}
-
-.promocionProtectoresAcetatos__button i{
-
-    margin-right: 5px;
-}
-
-.buttonText__precioRebaja{
-
-    display: flex;
-    align-items: baseline;
-}
-
-.precioRebaja__fiat{
-
-    font-size: 18px;
-}
-
-.buttonText__precioOriginal{
-
-    font-size: 18px;
-    font-weight: 400;
-    color: darkgray;
-    text-decoration: line-through;
-    margin-left: 5px;
-}
-
-.precioOriginal__fiat{
-
-    font-size: 16px;
-}
-
 .separador{
 
-    margin: 0;
+    margin-top: 60px;
     color: white;
 }
 
