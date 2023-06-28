@@ -50,3 +50,38 @@
 
     font-size: 16px;
 }
+
+/*XS*/ 
+@media (max-width: 575px) {
+    
+}
+    
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+        
+}
+      
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+      
+}
+    
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+              
+}
+    
+/*XL*/
+@media (min-width: 1200px){
+
+    .promocionProtectoresAcetatos__button{
+
+        font-size: 24px;
+    }
+        
+    .precioRebaja__fiat{
+        
+        font-size: 20px;
+    }
+   
+}

@@ -276,3 +276,119 @@
 
     width: 35px;
 }
+
+/*XS*/ 
+@media (max-width: 575px) {
+    
+}
+    
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+        
+}
+      
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+      
+}
+    
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+              
+}
+    
+/*XL*/
+@media (min-width: 1200px){
+
+    .promocionProtectoresAcetatos{
+
+        font-size: 18px;
+    }
+        
+    .promocionProtectoresAcetatos__titulo{
+        
+        font-size: 50px;
+    }
+        
+    .promocionProtectoresAcetatos__text{
+        
+        font-size: 20px;
+    }
+        
+    .promocionProtectoresAcetatos__subtitulo{
+        
+        font-size: 32px;
+    }
+        
+    .imgProtectores{
+        
+        object-fit: cover;
+    }
+        
+    .infoPonente__img{
+        
+        width: 60px;
+    }
+        
+    .calificaciones__porcentaje{
+        
+        font-size: 20px;
+    }
+        
+    .calificaciones__total{
+        
+        font-size: 15px;
+    }
+        
+    .iconStar{
+        
+        font-size: 22px;
+    }
+        
+    .infoCurso__textMatriculados{
+        
+        font-size: 18px;
+    }
+        
+    .iconGraduate{
+        
+        font-size: 22px;
+    }
+        
+    .totalEstudiantes__text{
+        
+        font-size: 18px;
+    }
+        
+    .descripcionTitulo{
+        
+        font-size: 32px;
+    }
+        
+    .iconTruck{
+        
+        font-size: 22px;
+    }
+        
+    .infoAcetatos__textPrimario{
+        
+        font-size: 13px;
+    }
+        
+    .separador{
+        
+        margin-top: 65px;
+        margin-bottom: 15px;
+    }
+        
+    .iconLock{
+        
+        font-size: 18px;
+    }
+        
+    .tipoPago__img{
+        
+        width: 45px;
+    }
+   
+}
