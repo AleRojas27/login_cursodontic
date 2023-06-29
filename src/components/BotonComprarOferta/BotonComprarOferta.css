@@ -63,6 +63,19 @@
       
 /*MD*/
 @media (max-width: 991px) and (min-width: 768px) {
+
+    .promocionProtectoresAcetatos__button{
+
+        height: 45px;
+        font-size: 18px;
+        margin-left: 35px;
+        top: 90px;
+    }
+
+    .precioRebaja__fiat{
+
+        font-size: 15px;
+    }
       
 }
     
