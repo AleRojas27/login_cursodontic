@@ -185,7 +185,7 @@ export default function PromocionProtectoresAcetatos(){
 
                                 </div>
 
-                                <div className="col-12 mt-4">
+                                <div className="col-12 mt-4 contenidoDescripcion">
 
                                     <h3 className="descripcionTitulo">Descripción</h3>
 

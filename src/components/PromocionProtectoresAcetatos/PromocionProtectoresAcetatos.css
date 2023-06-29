@@ -284,7 +284,169 @@
     
 /*SM*/
 @media (max-width: 767px) and (min-width: 576px) {
-        
+
+    .promocionProtectoresAcetatos{
+
+        font-size: 13px;
+    }
+
+    .promocionProtectoresAcetatos__titulo{
+
+        font-size: 35px;
+    }
+
+    .promocionProtectoresAcetatos__text{
+
+        font-size: 14px;
+    }
+
+    .promocionProtectoresAcetatos__subtitulo{
+
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .imgProtectores{
+
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        height: 275px;
+        object-fit: cover;
+    }
+
+    .promocionProtectoresAcetatos__infoPonente{
+
+        margin-left: 15px;
+    }
+
+    .infoPonente__img{
+
+        width: 50px;
+    }
+
+    .infoCurso{
+
+        margin-left: 15px;
+    }
+
+    .iconVideo{
+
+        font-size: 24px;
+    }
+
+    .iconAward{
+
+        font-size: 24px;
+    }
+
+    .iconEye{
+
+        font-size: 24px;
+    }
+
+    .iconClock{
+
+        font-size: 24px;
+    }
+
+    .infoCurso__calificaciones{
+
+        margin-left: 15px;
+    }
+
+    .calificaciones__porcentaje{
+
+        font-size: 14px;
+    }
+
+    .calificaciones__total{
+
+        font-size: 12px;
+    }
+
+    .iconStar{
+
+        font-size: 18px;
+    }
+
+    .infoCurso__textMatriculados{
+
+        margin-left: 15px;
+        font-size: 14px;
+    }
+
+    .infoCurso__totalEstudiantes{
+
+        margin-right: 30px;
+    }
+
+    .iconGraduate{
+
+        font-size: 18px;
+    }
+
+    .totalEstudiantes__text{
+
+        font-size: 14px;
+    }
+
+    .contenidoDescripcion{
+
+        padding: 0 25px;
+    }
+
+    .descripcionTitulo{
+
+        font-size: 24px;
+    }
+
+    .imgAcetatos{
+
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        height: 275px;
+        object-fit: cover;
+    }
+
+    .infoAcetatos{
+
+        margin-left: 15px;
+    }
+
+    .iconTruck{
+
+        font-size: 18px;
+    }
+
+    .infoAcetatos__textPrimario{
+
+        margin-left: 15px;
+        font-size: 10px;
+    }
+
+    .iconLock{
+
+        font-size: 14px;
+    }    
+
+    .tipoPago__img{
+
+        width: 30px;
+    }
+
+    .tipoPago__denthereum{
+
+        width: 30px;
+    }
+
+    .separador{
+
+        margin-top: 70px;
+    }
 }
       
 /*MD*/
