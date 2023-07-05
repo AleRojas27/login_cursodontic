@@ -26,7 +26,7 @@ export default function PromocionProtectoresAcetatos(){
 
                     <div className="row">
 
-                        <div className="col-lg-6 mt-4">
+                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-4">
 
                             <h2 className="promocionProtectoresAcetatos__subtitulo">Protectores Dentales-Bucales Personalizados</h2>
 
@@ -127,7 +127,7 @@ export default function PromocionProtectoresAcetatos(){
 
                                 </div>
 
-                                <div className="col-12 mt-4">
+                                <div className="col-12 mt-4 contenidoDescripcion">
 
                                     <h3 className="descripcionTitulo">Descripción</h3>
 
@@ -147,7 +147,7 @@ export default function PromocionProtectoresAcetatos(){
 
                         </div>
 
-                        <div className="col-lg-6 mt-4">
+                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-4">
 
                             <h2 className="promocionProtectoresAcetatos__subtitulo">Paquete de acetatos 20 piezas libre eleccion</h2>
 
@@ -185,7 +185,7 @@ export default function PromocionProtectoresAcetatos(){
 
                                 </div>
 
-                                <div className="col-12 mt-4">
+                                <div className="col-12 mt-4 contenidoDescripcion">
 
                                     <h3 className="descripcionTitulo">Descripción</h3>
 

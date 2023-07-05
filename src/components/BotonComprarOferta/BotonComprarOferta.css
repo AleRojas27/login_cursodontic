@@ -8,7 +8,7 @@
 
     background-color: red;
     margin-left: 5px;
-    margin-bottom: 22px;
+    margin-bottom: 28px;
     margin-top: 20px;
     width: 80%;
     height: 50px;
@@ -49,4 +49,99 @@
 .precioOriginal__fiat{
 
     font-size: 16px;
+}
+
+/*XS*/ 
+@media (max-width: 575px) {
+
+    .promocionProtectoresAcetatos__button{
+
+        height: 45px;
+        left: 38px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .precioRebaja__fiat{
+
+        font-size: 12px;
+    }
+
+    .buttonText__precioOriginal{
+
+        font-size: 14px;
+    }
+
+    .precioOriginal__fiat{
+
+        font-size: 14px;
+    }
+    
+}
+    
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+
+    .promocionProtectoresAcetatos__button{
+
+        height: 45px;
+        left: 53px;
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
+    .precioRebaja__fiat{
+
+        font-size: 13px;
+    }
+
+    .buttonText__precioOriginal{
+
+        font-size: 14px;
+    }
+
+    .precioOriginal__fiat{
+
+        font-size: 14px;
+    }
+        
+}
+      
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .promocionProtectoresAcetatos__button{
+
+        height: 45px;
+        font-size: 18px;
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+
+    .precioRebaja__fiat{
+
+        font-size: 15px;
+    }
+      
+}
+    
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+              
+}
+    
+/*XL*/
+@media (min-width: 1200px){
+
+    .promocionProtectoresAcetatos__button{
+
+        font-size: 24px;
+        margin-bottom: 32px;
+    }
+        
+    .precioRebaja__fiat{
+        
+        font-size: 20px;
+    }
+   
 }
