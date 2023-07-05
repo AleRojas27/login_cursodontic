@@ -14,7 +14,7 @@ export default function HeaderLogin(){
 
                 <div className="">
 
-                    <img src={logoCursodontic} className="headerLogin__logo" />
+                    <img src={logoCursodontic} className="headerLogin__logo" alt="Logo Cursodontic" />
 
                     <Link to="/chatbot" className="">
 
