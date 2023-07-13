@@ -1,4 +1,4 @@
-import React, { useEffect} from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import HeaderLogin from './components/HeaderLogin';
@@ -9,10 +9,6 @@ import PromocionProtectoresAcetatos from './components/PromocionProtectoresAceta
 import AvisoCookies from './components/AvisoCookies';
 
 function App() {
-
-  useEffect(() => {
-    localStorage.removeItem('cookiesAccepted');
-    }, []);
 
   return (
    

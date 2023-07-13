@@ -1,31 +1,31 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import "./AvisoCookies.css"
 
 const AvisoCookies = () => {
-    const [accepted, setAccepted] = useState(false);
+    const [aceppted, setAceppted] = useState(localStorage.getItem('cookiesAceppted'));
 
-    useEffect(() => {
-    const cookiesAccepted = localStorage.getItem('cookiesAccepted');
-    if (cookiesAccepted) {
-    setAccepted(true);
+    const handleAccept = () => {
+        setAceppted (true)
+        localStorage.setItem('cookiesAceppted', true)
     }
-    }, []);
 
-    const acceptCookies = () => {
-    // localStorage.setItem('cookiesAccepted', true);
-    setAccepted(true);
-    };
-
-    if (accepted) {
-    return null; // Si las cookies ya fueron aceptadas, no se muestra el aviso
+    if (aceppted){
+        return null
     }
 
     return (
 
     <div id="cookie-banner">
 
-        <p>Este sitio web utiliza cookies. Haz clic en Aceptar para continuar.</p>
-        <button onClick={acceptCookies}>Aceptar</button>
+        <p className="infoCookies">Este sitio web utiliza cookies. Haz clic en Aceptar para continuar.</p>
+
+        <div className="opcionesAvisoCookies">
+
+            <button onClick={handleAccept} id="acceptCookies">Aceptar</button>
+
+            <a href="https://www.iubenda.com/privacy-policy/85495804/full-legal" className="mostrarAvisoCompleto" target="_blank" rel="noreferrer">Ver aviso de cookies</a>
+
+        </div>
 
     </div>
     
