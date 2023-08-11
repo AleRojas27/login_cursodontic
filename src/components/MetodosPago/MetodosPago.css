@@ -1,0 +1,28 @@
+.metodosPago{
+
+    padding: 80px 0;
+    height: auto;
+}
+
+.metodosPago__tipoPago{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tipoPago{
+
+    font-size: 60px;
+    color: white;
+}
+
+.tipoPago__oxxo{
+
+    width: 70px;
+}
+
+.tipoPago__logoDenthereum{
+
+    width: 60px;
+}
