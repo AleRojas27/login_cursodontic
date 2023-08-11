@@ -1,7 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
+
+//COMPONENTES
+
 import HeaderLogin from './components/HeaderLogin';
+import PaginaPrincipal from './components/PaginaPrincipal';
 import LoginCursodontic from './components/LoginCursodontic';
 import FooterLogin from './components/FooterLogin'; 
 import Chatbot from './components/Chatbot';
@@ -16,15 +20,22 @@ function App() {
 
       <BrowserRouter>
 
+        <HeaderLogin />
+
         <Switch>
 
-          <Route path="/promocion/" exact>
+          <Route path="/login" exact>
 
-            <HeaderLogin />
-            <PromocionProtectoresAcetatos />
+            <LoginCursodontic />
+            <FooterLogin />
 
           </Route>
 
+          <Route path="/promocion/" exact>
+
+            <PromocionProtectoresAcetatos />
+
+          </Route>
 
           <Route path="/chatbot/" exact>
 
@@ -34,11 +45,9 @@ function App() {
 
           <Route path="/">
 
-            <HeaderLogin />
-            <LoginCursodontic />
-            <FooterLogin />
+            <PaginaPrincipal />
             <AvisoCookies />
-            
+
           </Route>
 
         </Switch>

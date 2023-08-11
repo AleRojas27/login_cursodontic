@@ -1,0 +1,52 @@
+.presentacionMembresia{
+
+    padding: 30px 0;
+}
+
+.presentacionMembresia__titulo{
+
+    color: #f9bb60;
+    font-size: 45px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.presentacionMembresia__infoText{
+
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.presentacionMembresia__button{
+
+    width: 275px;
+    height: 55px;
+    background-color: #ffb03b;
+    border-radius: 8px;
+    border: 1px solid #f9bb60;
+    margin: 25px 0;
+
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.infoText__span{
+
+    color: #f9bb60;
+    font-weight: 600;
+}
+
+.presentacionMembresia__imgPresentacion{
+
+    text-align: center;
+}
+
+.imgPresentacion{
+
+    width: 85%;
+    border-radius: 20px;
+}
+
