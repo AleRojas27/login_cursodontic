@@ -3,6 +3,7 @@ import './PaginaPrincipal.css';
 
 import PresentacionMembresia from './../PresentacionMembresia';
 import MetodosPago from './../MetodosPago';
+import NuestrosCursos from './../NuestrosCursos';
 
 export default function PaginaPrincipal(){
 
@@ -14,6 +15,7 @@ export default function PaginaPrincipal(){
 
                 <PresentacionMembresia />
                 <MetodosPago />
+                <NuestrosCursos />
 
             </div>
 

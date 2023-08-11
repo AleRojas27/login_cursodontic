@@ -1,0 +1,45 @@
+.nuestrosCursos{
+
+    padding: 20px 0 60px 0;
+    height: auto;
+}
+
+.nuestrosCursosInfo__titulo{
+
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.nuestrosCursosInfo__text{
+
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+
+.nuestrosCursosInfo__categorias{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.categorias{
+
+    color: gray;
+    background-color: black;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    border-bottom: 2px solid transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.active{
+
+    border-color: #f9bb60;
+    color: #f9bb60;
+}
