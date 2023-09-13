@@ -26,3 +26,98 @@
 
     width: 60px;
 }
+
+/*XS*/ 
+@media (max-width: 575px) {
+
+    .metodosPago{
+
+        padding: 50px 0;
+    }
+
+    .tipoPago{
+
+        font-size: 45px;
+    }
+
+    .tipoPago__oxxo{
+
+        width: 55px;
+    }
+
+    .tipoPago__logoDenthereum{
+
+        width: 45px;
+    }
+
+}
+    
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+
+    .metodosPago{
+
+        padding: 65px 0;
+    }
+
+    .tipoPago{
+
+        font-size: 55px;
+    }
+
+    .tipoPago__oxxo{
+
+        width: 60px;
+    }
+
+    .tipoPago__logoDenthereum{
+
+        width: 50px;
+    }
+
+}
+      
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .tipoPago{
+
+        font-size: 45px;
+    }
+
+    .tipoPago__oxxo{
+
+        width: 60px;
+    }
+
+    .tipoPago__logoDenthereum{
+
+        width: 50px;
+    }
+
+}
+    
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .tipoPago{
+
+        font-size: 50px;
+    }
+
+    .tipoPago__oxxo{
+
+        width: 65px;
+    }
+
+    .tipoPago__logoDenthereum{
+
+        width: 50px;
+    }
+       
+}
+    
+/*XL*/
+@media (min-width: 1200px){
+  
+}

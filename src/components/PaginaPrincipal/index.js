@@ -4,6 +4,8 @@ import './PaginaPrincipal.css';
 import PresentacionMembresia from './../PresentacionMembresia';
 import MetodosPago from './../MetodosPago';
 import NuestrosCursos from './../NuestrosCursos';
+import AutoridadMarca from './../AutoridadMarca';
+import PromoAppsCursodontic from './../PromoAppsCursodontic';
 
 export default function PaginaPrincipal(){
 
@@ -16,6 +18,8 @@ export default function PaginaPrincipal(){
                 <PresentacionMembresia />
                 <MetodosPago />
                 <NuestrosCursos />
+                <AutoridadMarca />
+                <PromoAppsCursodontic />
 
             </div>
 

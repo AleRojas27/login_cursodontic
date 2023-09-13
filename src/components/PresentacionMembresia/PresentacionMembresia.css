@@ -6,9 +6,10 @@
 .presentacionMembresia__titulo{
 
     color: #f9bb60;
-    font-size: 45px;
+    font-size: 60px;
     font-family: 'Montserrat';
     font-weight: 600;
+    margin-top: 100px;
 }
 
 .presentacionMembresia__infoText{
@@ -46,7 +47,125 @@
 
 .imgPresentacion{
 
-    width: 85%;
+    width: 70%;
     border-radius: 20px;
 }
 
+/*XS*/ 
+@media (max-width: 575px) {
+
+    .presentacionMembresia__titulo{
+
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .presentacionMembresia__infoText{
+
+        font-size: 14px;
+    }
+
+    .presentacionMembresia__button{
+
+        width: 210px;
+        height: 45px;
+        font-size: 13px;
+        margin: 15px 0 25px 0;
+    }
+
+    .imgPresentacion{
+
+        width: 60%;
+    }
+
+}
+    
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+
+    .presentacionMembresia__titulo{
+
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .presentacionMembresia__infoText{
+
+        font-size: 14px;
+    }
+
+    .presentacionMembresia__button{
+
+        width: 210px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .imgPresentacion{
+
+        width: 55%;
+    }
+
+}
+      
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .presentacionMembresia__titulo{
+
+        font-size: 35px;
+        margin-top: 30px;
+    }
+
+    .presentacionMembresia__infoText{
+
+        font-size: 14px;
+    }
+
+    .presentacionMembresia__button{
+
+        width: 220px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .imgPresentacion{
+
+        width: 85%;
+    }
+
+}
+    
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .presentacionMembresia__titulo{
+
+        font-size: 41px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+
+    .presentacionMembresia__infoText{
+
+        font-size: 16px;
+    }
+
+    .presentacionMembresia__button{
+
+        width: 250px;
+        height: 50px;
+    }
+
+    .imgPresentacion{
+
+        width: 75%;
+        margin-top: 20px;
+    }
+       
+}
+    
+/*XL*/
+@media (min-width: 1200px){
+  
+}

@@ -43,3 +43,88 @@
     border-color: #f9bb60;
     color: #f9bb60;
 }
+
+/*XS*/ 
+@media (max-width: 575px) {
+
+    .nuestrosCursosInfo__titulo{
+
+        font-size: 35px;
+    }
+
+    .nuestrosCursosInfo__text{
+
+        font-size: 14px;
+    }
+
+    .categorias{
+
+        font-size: 13px;
+    }
+
+}
+    
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+
+    .nuestrosCursosInfo__titulo{
+
+        font-size: 35px;
+    }
+
+    .nuestrosCursosInfo__text{
+
+        font-size: 14px;
+    }
+
+    .categorias{
+
+        font-size: 13px;
+    }
+
+}
+      
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .nuestrosCursosInfo__titulo{
+
+        font-size: 35px;
+    }
+
+    .nuestrosCursosInfo__text{
+
+        font-size: 15px;
+    }
+
+    .categorias{
+
+        font-size: 15px;
+    }
+
+}
+    
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .nuestrosCursosInfo__titulo{
+
+        font-size: 45px;
+    }
+
+    .nuestrosCursosInfo__text{
+
+        font-size: 16px;
+    }
+
+    .categorias{
+
+        font-size: 16px;
+    }
+       
+}
+    
+/*XL*/
+@media (min-width: 1200px){
+  
+}
