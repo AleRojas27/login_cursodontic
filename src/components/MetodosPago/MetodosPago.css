@@ -32,22 +32,22 @@
 
     .metodosPago{
 
-        padding: 50px 0;
+        padding: 35px 0;
     }
 
     .tipoPago{
 
-        font-size: 45px;
+        font-size: 30px;
     }
 
     .tipoPago__oxxo{
 
-        width: 55px;
+        width: 40px;
     }
 
     .tipoPago__logoDenthereum{
 
-        width: 45px;
+        width: 35px;
     }
 
 }

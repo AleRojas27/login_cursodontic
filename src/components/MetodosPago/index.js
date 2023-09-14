@@ -1,6 +1,8 @@
 import React from 'react';
 import './MetodosPago.css';
 
+import logoCursodonticPago from "./../../assets/img/iconodtm3.png"
+
 export default function MetodosPago(){
 
     return(
@@ -21,7 +23,7 @@ export default function MetodosPago(){
 
                     <img src="https://seeklogo.com/images/O/Oxxo-logo-9AC0DE4F4C-seeklogo.com.png" className="tipoPago__oxxo" alt="Tipo de Metodo de Pago" />
 
-                    <img src="https://cursodontic.com/static/media/BasicLogoDenthereumAmarillo.27d0ff6e.png" className="tipoPago__logoDenthereum" alt="Tipo de Metodo de Pago" />
+                    <img src={logoCursodonticPago} className="tipoPago__logoDenthereum" alt="Tipo de Metodo de Pago" />
 
                 </div>
 
