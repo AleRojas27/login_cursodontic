@@ -1,0 +1,413 @@
+.tecnologiasCursodontic{
+
+    height: auto;
+    font-size: 16px;
+    color: white;
+    padding: 40px 0;
+}
+
+.tecnologiasCursodontic__titulo{
+
+    font-size: 50px;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    font-weight: 500;
+}
+
+.tecnologiasCursodontic__introduccion{
+
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-align: center;
+}
+
+.introduccionSpan{
+
+    font-size: 18px;
+    color: #F9BB60;
+    font-weight: 600;
+}
+
+.tecnologiasCursodontic__datosTecnologias{
+
+    text-align: center;
+    padding-top: 12px;
+}
+
+.datosTecnologias__imgDenthereum{
+
+    width: 275px;
+}
+
+.datosTecnologias__subtituloDenthereum{
+
+    font-size: 35px;
+    color: #F9BB60;
+    font-family: 'Bebas Neue';
+    margin-bottom: 0;
+}
+
+.datosTecnologias__infoDenthereum{
+
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.datosTecnologias__imgPrometeo{
+
+    width: 220px;
+    margin-top: 20px;
+}
+
+.datosTecnologias__subtituloPrometeo{
+
+    font-size: 35px;
+    color: #f65f5d;
+    font-family: 'Bebas Neue';
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.datosTecnologias__infoPrometeo{
+
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;    
+}
+
+.datosTecnologias__imgProximamente{
+
+    width: 220px;
+    height: 220px;
+    margin-top: 20px;
+}
+
+.datosTecnologias__subtituloProximamente{
+
+    font-size: 35px;
+    font-family: 'Bebas Neue';
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.datosTecnologias__infoProximamente{
+
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;   
+}
+
+/*XS*/ 
+@media (max-width: 575px) {
+
+    .tecnologiasCursodontic__titulo{
+
+        font-size: 35px;
+    }
+
+    .tecnologiasCursodontic__introduccion{
+
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .introduccionSpan{
+
+        font-size: 13px;
+    }
+
+    .tecnologiasCursodontic__datosTecnologias{
+
+        padding-top: 0;
+    }
+
+    .datosTecnologias__imgDenthereum{
+
+        width: 170px;
+    }
+
+    .datosTecnologias__subtituloDenthereum{
+
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .datosTecnologias__infoDenthereum{
+
+        font-size: 13px;
+    }
+
+    .datosTecnologias__imgPrometeo{
+
+        width: 150px;
+        margin-top: 10px;
+    }
+
+    .datosTecnologias__subtituloPrometeo{
+
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .datosTecnologias__infoPrometeo{
+
+        font-size: 13px;
+    }
+
+    .datosTecnologias__imgProximamente{
+
+        width: 150px;
+        height: 150px;
+        margin-top: 10px;
+    }
+
+    .datosTecnologias__subtituloProximamente{
+
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .datosTecnologias__infoProximamente{
+
+        font-size: 13px;
+    }
+
+}
+    
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+
+    .tecnologiasCursodontic__titulo{
+
+        font-size: 35px;
+    }
+
+    .tecnologiasCursodontic__introduccion{
+
+        font-size: 13px;
+    }
+
+    .introduccionSpan{
+
+        font-size: 13px;
+    }
+
+    .tecnologiasCursodontic__datosTecnologias{
+
+        padding-top: 0;
+    }
+
+    .datosTecnologias__imgDenthereum{
+
+        width: 205px;
+    }
+
+    .datosTecnologias__subtituloDenthereum{
+
+        font-size: 30px;
+    }
+
+    .datosTecnologias__infoDenthereum{
+
+        font-size: 13px;
+    }
+
+    .datosTecnologias__imgPrometeo{
+
+        width: 155px;
+        margin-top: 10px;
+    }
+
+    .datosTecnologias__subtituloPrometeo{
+
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .datosTecnologias__infoPrometeo{
+
+        font-size: 13px;
+    }
+
+    .datosTecnologias__imgProximamente{
+
+        width: 155px;
+        height: 155px;
+        margin-top: 10px;
+    }
+
+    .datosTecnologias__subtituloProximamente{
+
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .datosTecnologias__infoProximamente{
+
+        font-size: 13px;
+    }
+
+}
+      
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .tecnologiasCursodontic__titulo{
+
+        font-size: 35px;
+    }
+
+    .tecnologiasCursodontic__introduccion{
+
+        font-size: 14px;
+    }
+
+    .introduccionSpan{
+
+        font-size: 14px;
+    }
+
+    .tecnologiasCursodontic__datosTecnologias{
+
+        padding-top: 0;
+    }
+
+    .datosTecnologias__imgDenthereum{
+
+        width: 210px;
+    }
+
+    .datosTecnologias__subtituloDenthereum{
+
+        font-size: 30px;
+    }
+
+    .datosTecnologias__infoDenthereum{
+
+        font-size: 13px;
+    }
+
+    .datosTecnologias__imgPrometeo{
+
+        width: 160px;
+        margin-top: 20px;
+    }
+
+    .datosTecnologias__subtituloPrometeo{
+
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .datosTecnologias__infoPrometeo{
+
+        font-size: 13px;
+    }
+
+    .datosTecnologias__imgProximamente{
+
+        width: 160px;
+        height: 160px;
+        margin-top: 20px;
+    }
+
+    .datosTecnologias__subtituloProximamente{
+
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .datosTecnologias__infoProximamente{
+
+        font-size: 13px;
+    }
+
+}
+    
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .tecnologiasCursodontic__titulo{
+
+        font-size: 45px;
+    }
+
+    .tecnologiasCursodontic__introduccion{
+
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .introduccionSpan{
+
+        font-size: 16px;
+    }
+
+    .datosTecnologias__imgDenthereum{
+
+        width: 240px;
+    }
+
+    .datosTecnologias__subtituloDenthereum{
+
+        font-size: 32px;
+    }
+
+    .datosTecnologias__infoDenthereum{
+
+        font-size: 15px;
+    }
+
+    .datosTecnologias__imgPrometeo{
+
+        width: 185px;
+    }
+
+    .datosTecnologias__subtituloPrometeo{
+
+        font-size: 32px;
+    }
+
+    .datosTecnologias__infoPrometeo{
+
+        font-size: 15px;
+    }
+
+    .datosTecnologias__imgProximamente{
+
+        width: 185px;
+        height: 185px;
+    }
+
+    .datosTecnologias__subtituloProximamente{
+
+        font-size: 32px;
+    }
+
+    .datosTecnologias__infoProximamente{
+
+        font-size: 15px;
+    }
+
+    .col-lg-0{
+
+        display: none;
+    }
+}
+    
+/*XL*/
+@media (min-width: 1200px){
+
+    .col-xl-0{
+
+        display: none;
+    }
+  
+}
