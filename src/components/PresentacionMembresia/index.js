@@ -3,7 +3,7 @@ import './PresentacionMembresia.css';
 
 //IMAGENES
 
-import dentistaPresentacion from './../../assets/img/dentista-cel.jpg';
+import dentistaPresentacion from './../../assets/img/slider1.png';
 
 export default function PresentacionMembresia(){
 
@@ -15,7 +15,7 @@ export default function PresentacionMembresia(){
 
                 <div className="row">
 
-                    <div className="col-lg-6">
+                    <div className="col-xl-5 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
                         <h1 className="presentacionMembresia__titulo">
                             
@@ -37,7 +37,7 @@ export default function PresentacionMembresia(){
 
                     </div>
 
-                    <div className="col-lg-6">
+                    <div className="col-xl-7 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
                         <div className="presentacionMembresia__imgPresentacion">
 

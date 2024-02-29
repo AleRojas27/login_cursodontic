@@ -1,0 +1,123 @@
+.metodosPago{
+
+    padding: 80px 0;
+    height: auto;
+}
+
+.metodosPago__tipoPago{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tipoPago{
+
+    font-size: 60px;
+    color: white;
+}
+
+.tipoPago__oxxo{
+
+    width: 70px;
+}
+
+.tipoPago__logoDenthereum{
+
+    width: 60px;
+}
+
+/*XS*/ 
+@media (max-width: 575px) {
+
+    .metodosPago{
+
+        padding: 35px 0;
+    }
+
+    .tipoPago{
+
+        font-size: 30px;
+    }
+
+    .tipoPago__oxxo{
+
+        width: 40px;
+    }
+
+    .tipoPago__logoDenthereum{
+
+        width: 35px;
+    }
+
+}
+    
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+
+    .metodosPago{
+
+        padding: 65px 0;
+    }
+
+    .tipoPago{
+
+        font-size: 55px;
+    }
+
+    .tipoPago__oxxo{
+
+        width: 60px;
+    }
+
+    .tipoPago__logoDenthereum{
+
+        width: 50px;
+    }
+
+}
+      
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .tipoPago{
+
+        font-size: 45px;
+    }
+
+    .tipoPago__oxxo{
+
+        width: 60px;
+    }
+
+    .tipoPago__logoDenthereum{
+
+        width: 50px;
+    }
+
+}
+    
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .tipoPago{
+
+        font-size: 50px;
+    }
+
+    .tipoPago__oxxo{
+
+        width: 65px;
+    }
+
+    .tipoPago__logoDenthereum{
+
+        width: 50px;
+    }
+       
+}
+    
+/*XL*/
+@media (min-width: 1200px){
+  
+}
