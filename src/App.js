@@ -11,6 +11,9 @@ import FooterLogin from './components/FooterLogin';
 import Chatbot from './components/Chatbot';
 import PromocionProtectoresAcetatos from './components/PromocionProtectoresAcetatos';
 import AvisoCookies from './components/AvisoCookies';
+import Error404Pendulum from './components/Error404Pendulum';
+import Error404Waves from './components/Error404Waves';
+import Error404Orange from './components/Error404Orange';
 
 function App() {
 
@@ -23,6 +26,24 @@ function App() {
         <HeaderLogin />
 
         <Switch>
+
+          <Route path='/error' exact>
+
+            <Error404Pendulum />
+
+          </Route>
+
+          {/* <Route path='/errorWaves' exact>
+
+            <Error404Waves />
+
+          </Route>
+
+          <Route path='/errorOrange' exact>
+
+            <Error404Orange />
+
+          </Route> */}
 
           <Route path="/login" exact>
 
